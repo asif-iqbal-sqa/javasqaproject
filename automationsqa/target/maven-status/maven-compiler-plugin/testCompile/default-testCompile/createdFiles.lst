@@ -1,0 +1,7 @@
+com\javaproject\automationsqa\pages\AutomationExerciseLandingPage.class
+com\javaproject\automationsqa\pages\BasePage.class
+com\javaproject\automationsqa\testcase\TestCase1RegisterUserTc.class
+com\javaproject\automationsqa\pages\TestCase1RegisterUserPage.class
+com\javaproject\automationsqa\utility\Data.class
+com\javaproject\automationsqa\AppTest.class
+com\javaproject\automationsqa\testcase\BaseClass.class
