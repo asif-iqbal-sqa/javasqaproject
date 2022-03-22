@@ -5,7 +5,7 @@ public class Data {
     public static final String BASE_URL = "https://www.automationexercise.com/";
     public static final String SIGNUP_URL = "https://www.automationexercise.com/login";
     public static final String SIGNUP_NAME = "XYZ";
-    public static final String SIGNUP_EMAIL = "xyz12345678901@yopmail.com";
+    public static final String SIGNUP_EMAIL = "xyz123456789012@yopmail.com";
     public static final String SIGNUP_PAGE_TEXT = "ENTER ACCOUNT INFORMATION";
     public static final String SIGNUP_PAGE_PASSWORD = "zxcV%6789";
 
@@ -24,8 +24,12 @@ public class Data {
     public static final String MOBILE_NUMBER = "+8801670999333";
     public static final String ACCOUNT_CREATED_TEXT = "ACCOUNT CREATED!";
     public static final String LOGGED_IN_TEXT = "Logged in as XYZ";
+    public static final String LOGGED_IN_PARTIAL_TEXT = "Logged in as";
     public static final String DELETE_ACCOUNT_TEXT = "Delete Account";
     public static final String DELETE_ACCOUNT_URL = "https://www.automationexercise.com/delete_account";
+
+
+    public static final String LOG_IN_TO_YOUR_ACCOUNT_TEXT = "Login to your account";
 
 
 
