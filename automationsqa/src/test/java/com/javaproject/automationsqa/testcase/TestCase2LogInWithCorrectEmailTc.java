@@ -18,17 +18,22 @@ public class TestCase2LogInWithCorrectEmailTc extends BaseClass{
         sleepTest(1000);
 
         String TestCase2LogInWithCorrectEmailPageUrl = driver.getCurrentUrl();
-        Assert.assertEquals(TestCase2LogInWithCorrectEmailPageUrl, Data.SIGNUP_URL);
+        Assert.assertEquals(TestCase2LogInWithCorrectEmailPageUrl, Data.LOGIN_SIGNUP_URL);
         System.out.println("Link matched.");
         sleepTest(1000);
 
-        tcliwcep.emailAddress.sendKeys(Data.SIGNUP_EMAIL);
+        String loginToYourAccountText = aelp.loginToYourAccountText.getText();
+        Assert.assertEquals(loginToYourAccountText,Data.LOG_IN_TO_YOUR_ACCOUNT_TEXT);
+        sleepTest(1500);
+        System.out.println("Login to your account is showing");
+
+        aelp.emailAddress.sendKeys(Data.SIGNUP_EMAIL);
         sleepTest(2000);
 
-        tcliwcep.password.sendKeys(Data.SIGNUP_PAGE_PASSWORD);
+        aelp.password.sendKeys(Data.SIGNUP_PAGE_PASSWORD);
         sleepTest(1500);
 
-        tcliwcep.logInButton.click();
+        aelp.loginButton.click();
         sleepTest(1500);
 
         String loggedInAsTxt = tcliwcep.loggedInAs.getText();

@@ -28,19 +28,19 @@ public class TestCase1RegisterUserTc extends BaseClass {
 
         //Validate Signup/Login page URL
         String signUpUrl = driver.getCurrentUrl();
-        Assert.assertEquals(signUpUrl, Data.SIGNUP_URL);
+        Assert.assertEquals(signUpUrl, Data.LOGIN_SIGNUP_URL);
         System.out.println("SIGNUP Url Matched");
 
         //Sending Name to Name box
-        tcrup.signUpName.sendKeys(Data.SIGNUP_NAME);
+        aelp.signUpName.sendKeys(Data.SIGNUP_NAME);
         sleepTest(2000);
 
         //Sending Email to Email Box
-        tcrup.signUpEmail.sendKeys(Data.SIGNUP_EMAIL);
+        aelp.signUpEmail.sendKeys(Data.SIGNUP_EMAIL);
         sleepTest(2000);
 
         //Click on Signup Button
-        tcrup.signUpButton.click();
+        aelp.signUpButton.click();
         sleepTest(2000);
 
         //SignUp Landing Page Text Validation

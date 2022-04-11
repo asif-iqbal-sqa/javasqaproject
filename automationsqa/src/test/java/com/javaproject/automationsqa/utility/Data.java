@@ -3,7 +3,7 @@ package com.javaproject.automationsqa.utility;
 public class Data {
 
     public static final String BASE_URL = "https://www.automationexercise.com/";
-    public static final String SIGNUP_URL = "https://www.automationexercise.com/login";
+    public static final String LOGIN_SIGNUP_URL = "https://www.automationexercise.com/login";
     public static final String SIGNUP_NAME = "XYZ";
     public static final String SIGNUP_EMAIL = "xyz123456789012@yopmail.com";
     public static final String SIGNUP_PAGE_TEXT = "ENTER ACCOUNT INFORMATION";
@@ -30,6 +30,44 @@ public class Data {
 
 
     public static final String LOG_IN_TO_YOUR_ACCOUNT_TEXT = "Login to your account";
+    public static final String NEW_USER_SIGNUP_TEXT = "New User Signup!";
+
+    public static final String INCORRECT_EMAIL = "xyz1234567890123@yopmail.com";
+    public static final String INCORRECT_PASSWORD = "xyz1234567890123@yopmail.com";
+    public static final String INCORRECT_TEXT = "Your email or password is incorrect!";
+
+    public static final String EMAIL_ADDRESS_ALREADY_EXIST_TEXT = "Email Address already exist!";
+
+    public static final String CONTACT_US_URL = "https://www.automationexercise.com/contact_us";
+    public static final String CONTACT_US_TEXT = "GET IN TOUCH";
+    public static final String CONTACT_US_NAME = "XYZ";
+    public static final String CONTACT_US_EMAIL = "xyz1234567890123@yopmail.com";
+    public static final String CONTACT_US_SUBJECT = "CONTACT US SUBJECT";
+    public static final String CONTACT_US_MESSAGE = "CONTACT US MESSAGE";
+    public static final String CONTACT_US_SUCCESS_MESSAGE = "Success! Your details have been submitted successfully.";
+
+    public static final String FEATURES_ITEMS_TEXT = "FEATURES ITEMS";
+
+
+    public static final String TEST_CASES_TEXT = "TEST CASES";
+
+    public static final String TEST_CASES_URL = "https://www.automationexercise.com/test_cases";
+
+    public static final String PRODUCTS_URL = "https://www.automationexercise.com/products";
+    public static final String PRODUCTS_TEXT = "Products";
+
+
+    public static final String PRODUCT_NAME_TEXT = "Blue Top";
+    public static final String PRODUCT_CATEGORY_TEXT = "Category:";
+    public static final String PRODUCT_PRICE_TEXT = "Rs. ";
+    public static final String PRODUCT_AVAILABILITY_TEXT = "Availability:";
+    public static final String PRODUCT_CONDITION_TEXT = "Condition:";
+    public static final String PRODUCT_BRAND_TEXT = "Brand:";
+
+
+    public static final String SEARCH_TEXT = "Blue Top";
+    public static final String SEARCH_PRODUCTS_TEXT = "SEARCHED PRODUCTS";
+
 
 
 
