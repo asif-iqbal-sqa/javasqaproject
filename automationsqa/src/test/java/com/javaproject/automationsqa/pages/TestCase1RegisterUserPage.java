@@ -11,27 +11,6 @@ public class TestCase1RegisterUserPage extends BasePage{
         super(driver);
     }
 
-    @FindBy (xpath = "/html//section[@id='form']//form[@action='/signup']/input[@name='name']")
-    public WebElement signUpName;
-
-    public WebElement getSignUpName() {
-        return signUpName;
-    }
-
-    @FindBy (xpath = "/html//section[@id='form']//form[@action='/signup']/input[@name='email']")
-    public WebElement signUpEmail;
-
-    public WebElement getSignUpEmail() {
-        return signUpEmail;
-    }
-
-    @FindBy (xpath = "/html//section[@id='form']//form[@action='/signup']/button[@type='submit']")
-    public WebElement signUpButton;
-
-    public WebElement getSignUpButton() {
-        return signUpButton;
-    }
-
     @FindBy (xpath = "/html//section[@id='form']//div[@class='login-form']/h2/b[.='Enter Account Information']")
     public WebElement signUpPageText;
 
@@ -60,6 +39,9 @@ public class TestCase1RegisterUserPage extends BasePage{
         return signUpPagePassword;
     }
 
+
+
+    //Sign Up Page Date Picker Drop Down Validation
     public WebElement getElement (By locator){
         return driver.findElement(locator);
     }
