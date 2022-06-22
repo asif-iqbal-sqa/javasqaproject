@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class TestCase24DownloadInvoiceAfterPurchaseOrderTc extends BaseClass{
 
     @Test
-    public void TestCase24DownloadInvoiceAfterPurchaseOrderTc () {
+    public void testCase24DownloadInvoiceAfterPurchaseOrderTc () {
 
         AutomationExerciseLandingPage aelp = new AutomationExerciseLandingPage(driver);
         TestCase24DownloadInvoiceAfterPurchaseOrderPage tcdiapop = new TestCase24DownloadInvoiceAfterPurchaseOrderPage(driver);

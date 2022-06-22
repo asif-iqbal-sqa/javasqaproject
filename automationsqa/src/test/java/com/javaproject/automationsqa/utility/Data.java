@@ -6,7 +6,7 @@ public class Data {
     public static final String HOME_PAGE_SUCCESS_MESSAGE = "Ypu are at Home page";
     public static final String LOGIN_SIGNUP_URL = "https://www.automationexercise.com/login";
     public static final String SIGNUP_NAME = "XYZ";
-    public static final String SIGNUP_EMAIL = "xyz123456789013@yopmail.com";
+    public static final String SIGNUP_EMAIL = "xyz123456789015@yopmail.com";
     public static final String SIGNUP_PAGE_TEXT = "ENTER ACCOUNT INFORMATION";
     public static final String SIGNUP_PAGE_PASSWORD = "zxcV%6789";
 
@@ -42,7 +42,7 @@ public class Data {
     public static final String CONTACT_US_URL = "https://www.automationexercise.com/contact_us";
     public static final String CONTACT_US_TEXT = "GET IN TOUCH";
     public static final String CONTACT_US_NAME = "XYZ";
-    public static final String CONTACT_US_EMAIL = "xyz1234567890123@yopmail.com";
+    public static final String CONTACT_US_EMAIL = "xyz1234567890124@yopmail.com";
     public static final String CONTACT_US_SUBJECT = "CONTACT US SUBJECT";
     public static final String CONTACT_US_MESSAGE = "CONTACT US MESSAGE";
     public static final String CONTACT_US_SUCCESS_MESSAGE = "Success! Your details have been submitted successfully.";
@@ -82,9 +82,9 @@ public class Data {
 
 
     public static final String SIGNUP_NAME_INPUT = "ABC";
-    public static final String SIGNUP_EMAIL_ADDRESS_INPUT = "abc7@yopmail.com";
-    public static final String SIGNUP_EMAIL_ADDRESS_INPUT_TC_23 = "abc8@yopmail.com";
-    public static final String SIGNUP_EMAIL_ADDRESS_INPUT_TC_24 = "abc14@yopmail.com";
+    public static final String SIGNUP_EMAIL_ADDRESS_INPUT = "abc21@yopmail.com";
+    public static final String SIGNUP_EMAIL_ADDRESS_INPUT_TC_23 = "abc22@yopmail.com";
+    public static final String SIGNUP_EMAIL_ADDRESS_INPUT_TC_24 = "abc23@yopmail.com";
     public static final String SIGNUP_PAGE_PASSWORD_INPUT = "zxcV%6789";
     public static final String SIGNUP_PAGE_DATE_DROPDOWN = "13";
     public static final String SIGNUP_PAGE_MONTH_DROPDOWN = "12";

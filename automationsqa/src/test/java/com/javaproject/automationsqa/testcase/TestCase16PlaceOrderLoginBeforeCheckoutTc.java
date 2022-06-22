@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class TestCase16PlaceOrderLoginBeforeCheckoutTc extends BaseClass{
 
     @Test
-    public void TestCase16PlaceOrderLoginBeforeCheckoutTc () {
+    public void testCase16PlaceOrderLoginBeforeCheckoutTc () {
 
         AutomationExerciseLandingPage aelp = new AutomationExerciseLandingPage(driver);
         TestCase16PlaceOrderLoginBeforeCheckoutPage tcpolbcp = new TestCase16PlaceOrderLoginBeforeCheckoutPage (driver);

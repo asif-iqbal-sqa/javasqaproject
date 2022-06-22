@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="UITest(failed)" verbose="0">
+    <classes>
+      <class name="com.javaproject.automationsqa.testcase.TestCase14PlaceOrderRegisterWhileCheckoutTc">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="testCase14PlaceOrderRegisterWhileCheckoutTc"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.javaproject.automationsqa.testcase.TestCase14PlaceOrderRegisterWhileCheckoutTc -->
+      <class name="com.javaproject.automationsqa.testcase.TestCase6ContactUsFormTc">
+        <methods>
+          <include name="afterClass"/>
+          <include name="testCase6ContactUsFormTc"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.javaproject.automationsqa.testcase.TestCase6ContactUsFormTc -->
+      <class name="com.javaproject.automationsqa.testcase.TestCase15PlaceOrderRegisterBeforeCheckoutTc">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="testCase15PlaceOrderRegisterBeforeCheckoutTc"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.javaproject.automationsqa.testcase.TestCase15PlaceOrderRegisterBeforeCheckoutTc -->
+      <class name="com.javaproject.automationsqa.testcase.TestCase23VerifyAddressDetailsInCheckoutPageTc">
+        <methods>
+          <include name="afterClass"/>
+          <include name="testCase23VerifyAddressDetailsInCheckoutPageTc"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.javaproject.automationsqa.testcase.TestCase23VerifyAddressDetailsInCheckoutPageTc -->
+      <class name="com.javaproject.automationsqa.testcase.TestCase24DownloadInvoiceAfterPurchaseOrderTc">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="testCase24DownloadInvoiceAfterPurchaseOrderTc"/>
+        </methods>
+      </class> <!-- com.javaproject.automationsqa.testcase.TestCase24DownloadInvoiceAfterPurchaseOrderTc -->
+    </classes>
+  </test> <!-- UITest(failed) -->
+</suite> <!-- Failed suite [Regression] -->

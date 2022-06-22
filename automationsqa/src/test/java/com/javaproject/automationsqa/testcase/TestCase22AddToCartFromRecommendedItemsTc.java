@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class TestCase22AddToCartFromRecommendedItemsTc extends BaseClass{
 
     @Test
-    public void TestCase22AddToCartFromRecommendedItemsTc () {
+    public void testCase22AddToCartFromRecommendedItemsTc () {
 
         AutomationExerciseLandingPage aelp = new AutomationExerciseLandingPage(driver);
         TestCase22AddToCartFromRecommendedItemsPage tcatcfrip = new TestCase22AddToCartFromRecommendedItemsPage(driver);

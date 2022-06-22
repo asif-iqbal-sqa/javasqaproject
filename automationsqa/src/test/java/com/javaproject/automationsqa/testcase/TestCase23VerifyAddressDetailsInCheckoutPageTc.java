@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class TestCase23VerifyAddressDetailsInCheckoutPageTc extends BaseClass{
 
     @Test
-    public void TestCase23VerifyAddressDetailsInCheckoutPageTc () {
+    public void testCase23VerifyAddressDetailsInCheckoutPageTc () {
 
         AutomationExerciseLandingPage aelp = new AutomationExerciseLandingPage(driver);
         TestCase23VerifyAddressDetailsInCheckoutPagePage tcvadicpp = new TestCase23VerifyAddressDetailsInCheckoutPagePage(driver);

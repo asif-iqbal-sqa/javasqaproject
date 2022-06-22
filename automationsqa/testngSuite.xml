@@ -67,79 +67,121 @@
             </class>
 
 
-            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+            <class name ="com.javaproject.automationsqa.testcase.TestCase10VerifySubscriptionInHomeTc">
                 <methods>
-                    <include name="testCase1RegisterUserTc" />
+                    <include name="testCase10VerifySubscriptionInHomeTc" />
                 </methods>
             </class>
 
 
-            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+            <class name ="com.javaproject.automationsqa.testcase.TestCase11VerifySubscriptionInCartTc">
                 <methods>
-                    <include name="testCase1RegisterUserTc" />
+                    <include name="testCase11VerifySubscriptionInCartTc" />
                 </methods>
             </class>
 
 
-            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+            <class name ="com.javaproject.automationsqa.testcase.TestCase12AddProductsInCartTc">
                 <methods>
-                    <include name="testCase1RegisterUserTc" />
+                    <include name="testCase12AddProductsInCartTc" />
                 </methods>
             </class>
 
 
-            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+            <class name ="com.javaproject.automationsqa.testcase.TestCase13VerifyProductQuantityInCartTc">
                 <methods>
-                    <include name="testCase1RegisterUserTc" />
+                    <include name="testCase13VerifyProductQuantityInCartTc" />
                 </methods>
             </class>
 
 
-            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+            <class name ="com.javaproject.automationsqa.testcase.TestCase14PlaceOrderRegisterWhileCheckoutTc">
                 <methods>
-                    <include name="testCase1RegisterUserTc" />
+                    <include name="testCase14PlaceOrderRegisterWhileCheckoutTc" />
                 </methods>
             </class>
 
 
-            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+            <class name ="com.javaproject.automationsqa.testcase.TestCase15PlaceOrderRegisterBeforeCheckoutTc">
                 <methods>
-                    <include name="testCase1RegisterUserTc" />
+                    <include name="testCase15PlaceOrderRegisterBeforeCheckoutTc" />
                 </methods>
             </class>
 
 
-            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+            <class name ="com.javaproject.automationsqa.testcase.TestCase16PlaceOrderLoginBeforeCheckoutTc">
                 <methods>
-                    <include name="testCase1RegisterUserTc" />
+                    <include name="testCase16PlaceOrderLoginBeforeCheckoutTc" />
                 </methods>
             </class>
 
 
-            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+            <class name ="com.javaproject.automationsqa.testcase.TestCase17RemoveProductsFromCartTc">
                 <methods>
-                    <include name="testCase1RegisterUserTc" />
+                    <include name="testCase17RemoveProductsFromCartTc" />
                 </methods>
             </class>
 
 
-            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+            <class name ="com.javaproject.automationsqa.testcase.TestCase18ViewCategoryProductsTc">
                 <methods>
-                    <include name="testCase1RegisterUserTc" />
+                    <include name="testCase18ViewCategoryProductsTc" />
                 </methods>
             </class>
 
 
-            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+            <class name ="com.javaproject.automationsqa.testcase.TestCase19ViewAndCartBrandProductsTc">
                 <methods>
-                    <include name="testCase1RegisterUserTc" />
+                    <include name="testCase19ViewAndCartBrandProductsTc" />
                 </methods>
             </class>
 
 
-            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+            <class name ="com.javaproject.automationsqa.testcase.TestCase20SearchProductsAndVerifyCartAfterLoginTc">
                 <methods>
-                    <include name="testCase1RegisterUserTc" />
+                    <include name="testCase20SearchProductsAndVerifyCartAfterLoginTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase21AddReviewOnProductTc">
+                <methods>
+                    <include name="testCase21AddReviewOnProductTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase22AddToCartFromRecommendedItemsTc">
+                <methods>
+                    <include name="testCase22AddToCartFromRecommendedItemsTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase23VerifyAddressDetailsInCheckoutPageTc">
+                <methods>
+                    <include name="testCase23VerifyAddressDetailsInCheckoutPageTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase24DownloadInvoiceAfterPurchaseOrderTc">
+                <methods>
+                    <include name="testCase24DownloadInvoiceAfterPurchaseOrderTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase25VerifyScrollUpUsingArrowButtonAndScrollDownFunctionalityTc">
+                <methods>
+                    <include name="testCase25VerifyScrollUpUsingArrowButtonAndScrollDownFunctionalityTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase26VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionalityTc">
+                <methods>
+                    <include name="testCase26VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionalityTc" />
                 </methods>
             </class>
 
