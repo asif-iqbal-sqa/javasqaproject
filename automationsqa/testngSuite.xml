@@ -12,6 +12,138 @@
                 </methods>
             </class>
 
+            <class name ="com.javaproject.automationsqa.testcase.TestCase2LogInWithCorrectEmailTc">
+                <methods>
+                    <include name="testCase2LogInWithCorrectEmailTc" />
+                </methods>
+            </class>
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase3LogInWithInCorrectEmailTc">
+                <methods>
+                    <include name="testCase3LogInWithInCorrectEmailTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase4LogOutUserTc">
+                <methods>
+                    <include name="testCase4LogOutUserTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase5RegisterUserWithExistingEmailTc">
+                <methods>
+                    <include name="testCase5RegisterUserWithExistingEmailTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase6ContactUsFormTc">
+                <methods>
+                    <include name="testCase6ContactUsFormTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase7VerifyTestCasesTc">
+                <methods>
+                    <include name="testCase7VerifyTestCasesTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase8VerifyAllProductsAndProductDetailTc">
+                <methods>
+                    <include name="testCase8VerifyAllProductsAndProductDetailTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase9SearchProductTc">
+                <methods>
+                    <include name="testCase9SearchProductTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+                <methods>
+                    <include name="testCase1RegisterUserTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+                <methods>
+                    <include name="testCase1RegisterUserTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+                <methods>
+                    <include name="testCase1RegisterUserTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+                <methods>
+                    <include name="testCase1RegisterUserTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+                <methods>
+                    <include name="testCase1RegisterUserTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+                <methods>
+                    <include name="testCase1RegisterUserTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+                <methods>
+                    <include name="testCase1RegisterUserTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+                <methods>
+                    <include name="testCase1RegisterUserTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+                <methods>
+                    <include name="testCase1RegisterUserTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+                <methods>
+                    <include name="testCase1RegisterUserTc" />
+                </methods>
+            </class>
+
+
+            <class name ="com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc">
+                <methods>
+                    <include name="testCase1RegisterUserTc" />
+                </methods>
+            </class>
+
+
         </classes>
     </test>
 

@@ -6,7 +6,7 @@ public class Data {
     public static final String HOME_PAGE_SUCCESS_MESSAGE = "Ypu are at Home page";
     public static final String LOGIN_SIGNUP_URL = "https://www.automationexercise.com/login";
     public static final String SIGNUP_NAME = "XYZ";
-    public static final String SIGNUP_EMAIL = "xyz123456789012@yopmail.com";
+    public static final String SIGNUP_EMAIL = "xyz123456789013@yopmail.com";
     public static final String SIGNUP_PAGE_TEXT = "ENTER ACCOUNT INFORMATION";
     public static final String SIGNUP_PAGE_PASSWORD = "zxcV%6789";
 
