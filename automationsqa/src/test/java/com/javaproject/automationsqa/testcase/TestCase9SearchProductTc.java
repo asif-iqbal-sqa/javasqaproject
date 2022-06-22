@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class TestCase9SearchProductTc extends BaseClass{
 
     @Test
-    public void TestCase9SearchProductTc () {
+    public void testCase9SearchProductTc () {
 
         AutomationExerciseLandingPage aelp = new AutomationExerciseLandingPage(driver);
         TestCase9SearchProductPage tcspp = new  TestCase9SearchProductPage (driver);
