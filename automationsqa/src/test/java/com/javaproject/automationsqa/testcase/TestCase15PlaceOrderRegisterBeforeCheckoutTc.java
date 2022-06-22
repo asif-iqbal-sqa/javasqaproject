@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class TestCase15PlaceOrderRegisterBeforeCheckoutTc extends BaseClass{
 
     @Test
-    public void TestCase15PlaceOrderRegisterBeforeCheckoutTc () {
+    public void testCase15PlaceOrderRegisterBeforeCheckoutTc () {
 
         AutomationExerciseLandingPage aelp = new AutomationExerciseLandingPage(driver);
         TestCase15PlaceOrderRegisterBeforeCheckoutPage tcporbcp = new TestCase15PlaceOrderRegisterBeforeCheckoutPage(driver);

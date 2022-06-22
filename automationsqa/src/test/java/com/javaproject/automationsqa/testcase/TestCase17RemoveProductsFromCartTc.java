@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class TestCase17RemoveProductsFromCartTc extends BaseClass{
 
     @Test
-    public void TestCase17RemoveProductsFromCartTc () {
+    public void testCase17RemoveProductsFromCartTc () {
 
         AutomationExerciseLandingPage aelp = new AutomationExerciseLandingPage(driver);
         TestCase17RemoveProductsFromCartPage tcrpfcp = new TestCase17RemoveProductsFromCartPage(driver);

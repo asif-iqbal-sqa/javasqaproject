@@ -15,7 +15,7 @@ import javax.swing.*;
 public class TestCase20SearchProductsAndVerifyCartAfterLoginTc extends BaseClass{
 
     @Test
-    public void TestCase20SearchProductsAndVerifyCartAfterLoginTc () {
+    public void testCase20SearchProductsAndVerifyCartAfterLoginTc () {
 
         AutomationExerciseLandingPage aelp = new AutomationExerciseLandingPage(driver);
         TestCase20SearchProductsAndVerifyCartAfterLoginPage tcspavcalp = new TestCase20SearchProductsAndVerifyCartAfterLoginPage(driver);

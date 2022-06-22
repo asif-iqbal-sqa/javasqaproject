@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>UITest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>19/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jun 22 12:25:15 BDT 2022</td>
+<td>Started on:</td><td>Wed Jun 22 13:26:53 BDT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>69 seconds (69104 ms)</td>
+<tr><td>Total time:</td><td>873 seconds (873967 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,415 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase6ContactUsFormTc.testCase6ContactUsFormTc()'><b>testCase6ContactUsFormTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase6ContactUsFormTc</td>
+<td><div><pre>java.lang.AssertionError: expected [https://www.automationexercise.com/contact_us] but found [https://www.automationexercise.com/video_tutorials]
+	at com.javaproject.automationsqa.testcase.TestCase6ContactUsFormTc.testCase6ContactUsFormTc(TestCase6ContactUsFormTc.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1235678342", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1235678342'><pre>java.lang.AssertionError: expected [https://www.automationexercise.com/contact_us] but found [https://www.automationexercise.com/video_tutorials]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.javaproject.automationsqa.testcase.TestCase6ContactUsFormTc.testCase6ContactUsFormTc(TestCase6ContactUsFormTc.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>3</td>
+<td>com.javaproject.automationsqa.testcase.TestCase6ContactUsFormTc@3e84448c</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase23VerifyAddressDetailsInCheckoutPageTc.testCase23VerifyAddressDetailsInCheckoutPageTc()'><b>testCase23VerifyAddressDetailsInCheckoutPageTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase23VerifyAddressDetailsInCheckoutPageTc</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html//section[@id=&apos;form&apos;]/div[@class=&apos;container&apos;]//form[@action=&apos;/signup&apos;]/div[1]/div[1]/label[@class=&apos;top&apos;]/div[@class=&apos;radio&apos;]//input[@name=&apos;title&apos;]&quot;}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
+System info: host: &apos;DESKTOP-BPA0BAS&apos;, ip: &apos;192.168.100.44&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64687}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 370388e72d2171864ed3493745abb314
+*** Element info: {Using=xpath, value=/html//section[@id=&apos;form&apos;]/div[@class=&apos;container&apos;]//form[@action=&apos;/signup&apos;]/div[1]/div[1]/label[@class=&apos;top&apos;]/div[@class=&apos;radio&apos;]//input[@name=&apos;title&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.javaproject.automationsqa.testcase.TestCase23VerifyAddressDetailsInCheckoutPageTc.testCase23VerifyAddressDetailsInCheckoutPageTc(TestCase23VerifyAddressDetailsInCheckoutPageTc.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace581318464", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace581318464'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html//section[@id=&apos;form&apos;]/div[@class=&apos;container&apos;]//form[@action=&apos;/signup&apos;]/div[1]/div[1]/label[@class=&apos;top&apos;]/div[@class=&apos;radio&apos;]//input[@name=&apos;title&apos;]&quot;}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
+System info: host: &apos;DESKTOP-BPA0BAS&apos;, ip: &apos;192.168.100.44&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64687}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 370388e72d2171864ed3493745abb314
+*** Element info: {Using=xpath, value=/html//section[@id=&apos;form&apos;]/div[@class=&apos;container&apos;]//form[@action=&apos;/signup&apos;]/div[1]/div[1]/label[@class=&apos;top&apos;]/div[@class=&apos;radio&apos;]//input[@name=&apos;title&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.javaproject.automationsqa.testcase.TestCase23VerifyAddressDetailsInCheckoutPageTc.testCase23VerifyAddressDetailsInCheckoutPageTc(TestCase23VerifyAddressDetailsInCheckoutPageTc.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>38</td>
+<td>com.javaproject.automationsqa.testcase.TestCase23VerifyAddressDetailsInCheckoutPageTc@662b4c69</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase15PlaceOrderRegisterBeforeCheckoutTc.testCase15PlaceOrderRegisterBeforeCheckoutTc()'><b>testCase15PlaceOrderRegisterBeforeCheckoutTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase15PlaceOrderRegisterBeforeCheckoutTc</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html//section[@id=&apos;form&apos;]/div[@class=&apos;container&apos;]//form[@action=&apos;/signup&apos;]/div[1]/div[1]/label[@class=&apos;top&apos;]/div[@class=&apos;radio&apos;]//input[@name=&apos;title&apos;]&quot;}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
+System info: host: &apos;DESKTOP-BPA0BAS&apos;, ip: &apos;192.168.100.44&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59460}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7e4bd9099550387ded8e9b4024aa558
+*** Element info: {Using=xpath, value=/html//section[@id=&apos;form&apos;]/div[@class=&apos;container&apos;]//form[@action=&apos;/signup&apos;]/div[1]/div[1]/label[@class=&apos;top&apos;]/div[@class=&apos;radio&apos;]//input[@name=&apos;title&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.javaproject.automationsqa.testcase.TestCase15PlaceOrderRegisterBeforeCheckoutTc.testCase15PlaceOrderRegisterBeforeCheckoutTc(TestCase15PlaceOrderRegisterBeforeCheckoutTc.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1608357825", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1608357825'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html//section[@id=&apos;form&apos;]/div[@class=&apos;container&apos;]//form[@action=&apos;/signup&apos;]/div[1]/div[1]/label[@class=&apos;top&apos;]/div[@class=&apos;radio&apos;]//input[@name=&apos;title&apos;]&quot;}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
+System info: host: &apos;DESKTOP-BPA0BAS&apos;, ip: &apos;192.168.100.44&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59460}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7e4bd9099550387ded8e9b4024aa558
+*** Element info: {Using=xpath, value=/html//section[@id=&apos;form&apos;]/div[@class=&apos;container&apos;]//form[@action=&apos;/signup&apos;]/div[1]/div[1]/label[@class=&apos;top&apos;]/div[@class=&apos;radio&apos;]//input[@name=&apos;title&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.javaproject.automationsqa.testcase.TestCase15PlaceOrderRegisterBeforeCheckoutTc.testCase15PlaceOrderRegisterBeforeCheckoutTc(TestCase15PlaceOrderRegisterBeforeCheckoutTc.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>45</td>
+<td>com.javaproject.automationsqa.testcase.TestCase15PlaceOrderRegisterBeforeCheckoutTc@32b260fa</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase24DownloadInvoiceAfterPurchaseOrderTc.testCase24DownloadInvoiceAfterPurchaseOrderTc()'><b>testCase24DownloadInvoiceAfterPurchaseOrderTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase24DownloadInvoiceAfterPurchaseOrderTc</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html//section[@id=&apos;form&apos;]/div[@class=&apos;container&apos;]//form[@action=&apos;/signup&apos;]/div[1]/div[1]/label[@class=&apos;top&apos;]/div[@class=&apos;radio&apos;]//input[@name=&apos;title&apos;]&quot;}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
+System info: host: &apos;DESKTOP-BPA0BAS&apos;, ip: &apos;192.168.100.44&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 750aadda71799800df0f7066837aad96
+*** Element info: {Using=xpath, value=/html//section[@id=&apos;form&apos;]/div[@class=&apos;container&apos;]//form[@action=&apos;/signup&apos;]/div[1]/div[1]/label[@class=&apos;top&apos;]/div[@class=&apos;radio&apos;]//input[@name=&apos;title&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.javaproject.automationsqa.testcase.TestCase24DownloadInvoiceAfterPurchaseOrderTc.testCase24DownloadInvoiceAfterPurchaseOrderTc(TestCase24DownloadInvoiceAfterPurchaseOrderTc.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1927585642", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1927585642'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html//section[@id=&apos;form&apos;]/div[@class=&apos;container&apos;]//form[@action=&apos;/signup&apos;]/div[1]/div[1]/label[@class=&apos;top&apos;]/div[@class=&apos;radio&apos;]//input[@name=&apos;title&apos;]&quot;}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
+System info: host: &apos;DESKTOP-BPA0BAS&apos;, ip: &apos;192.168.100.44&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 750aadda71799800df0f7066837aad96
+*** Element info: {Using=xpath, value=/html//section[@id=&apos;form&apos;]/div[@class=&apos;container&apos;]//form[@action=&apos;/signup&apos;]/div[1]/div[1]/label[@class=&apos;top&apos;]/div[@class=&apos;radio&apos;]//input[@name=&apos;title&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.javaproject.automationsqa.testcase.TestCase24DownloadInvoiceAfterPurchaseOrderTc.testCase24DownloadInvoiceAfterPurchaseOrderTc(TestCase24DownloadInvoiceAfterPurchaseOrderTc.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>64</td>
+<td>com.javaproject.automationsqa.testcase.TestCase24DownloadInvoiceAfterPurchaseOrderTc@fa49800</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase14PlaceOrderRegisterWhileCheckoutTc.testCase14PlaceOrderRegisterWhileCheckoutTc()'><b>testCase14PlaceOrderRegisterWhileCheckoutTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase14PlaceOrderRegisterWhileCheckoutTc</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html//section[@id=&apos;form&apos;]/div[@class=&apos;container&apos;]//form[@action=&apos;/signup&apos;]/div[1]/div[1]/label[@class=&apos;top&apos;]/div[@class=&apos;radio&apos;]//input[@name=&apos;title&apos;]&quot;}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
+System info: host: &apos;DESKTOP-BPA0BAS&apos;, ip: &apos;192.168.100.44&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7339137cf7a5d05722129be2d67f258
+*** Element info: {Using=xpath, value=/html//section[@id=&apos;form&apos;]/div[@class=&apos;container&apos;]//form[@action=&apos;/signup&apos;]/div[1]/div[1]/label[@class=&apos;top&apos;]/div[@class=&apos;radio&apos;]//input[@name=&apos;title&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.javaproject.automationsqa.testcase.TestCase14PlaceOrderRegisterWhileCheckoutTc.testCase14PlaceOrderRegisterWhileCheckoutTc(TestCase14PlaceOrderRegisterWhileCheckoutTc.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1460298405", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1460298405'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html//section[@id=&apos;form&apos;]/div[@class=&apos;container&apos;]//form[@action=&apos;/signup&apos;]/div[1]/div[1]/label[@class=&apos;top&apos;]/div[@class=&apos;radio&apos;]//input[@name=&apos;title&apos;]&quot;}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
+System info: host: &apos;DESKTOP-BPA0BAS&apos;, ip: &apos;192.168.100.44&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7339137cf7a5d05722129be2d67f258
+*** Element info: {Using=xpath, value=/html//section[@id=&apos;form&apos;]/div[@class=&apos;container&apos;]//form[@action=&apos;/signup&apos;]/div[1]/div[1]/label[@class=&apos;top&apos;]/div[@class=&apos;radio&apos;]//input[@name=&apos;title&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.javaproject.automationsqa.testcase.TestCase14PlaceOrderRegisterWhileCheckoutTc.testCase14PlaceOrderRegisterWhileCheckoutTc(TestCase14PlaceOrderRegisterWhileCheckoutTc.java:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>64</td>
+<td>com.javaproject.automationsqa.testcase.TestCase14PlaceOrderRegisterWhileCheckoutTc@1b1426f4</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,10 +485,100 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase13VerifyProductQuantityInCartTc.testCase13VerifyProductQuantityInCartTc()'><b>testCase13VerifyProductQuantityInCartTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase13VerifyProductQuantityInCartTc</td>
+<td></td>
+<td>18</td>
+<td>com.javaproject.automationsqa.testcase.TestCase13VerifyProductQuantityInCartTc@28f3b248</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase4LogOutUserTc.testCase4LogOutUserTc()'><b>testCase4LogOutUserTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase4LogOutUserTc</td>
+<td></td>
+<td>21</td>
+<td>com.javaproject.automationsqa.testcase.TestCase4LogOutUserTc@10d307f1</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase18ViewCategoryProductsTc.testCase18ViewCategoryProductsTc()'><b>testCase18ViewCategoryProductsTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase18ViewCategoryProductsTc</td>
+<td></td>
+<td>16</td>
+<td>com.javaproject.automationsqa.testcase.TestCase18ViewCategoryProductsTc@57d7f8ca</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase19ViewAndCartBrandProductsTc.testCase19ViewAndCartBrandProductsTc()'><b>testCase19ViewAndCartBrandProductsTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase19ViewAndCartBrandProductsTc</td>
+<td></td>
+<td>30</td>
+<td>com.javaproject.automationsqa.testcase.TestCase19ViewAndCartBrandProductsTc@76c3e77a</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase26VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionalityTc.testCase26VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionalityTc()'><b>testCase26VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionalityTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase26VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionalityTc</td>
+<td></td>
+<td>9</td>
+<td>com.javaproject.automationsqa.testcase.TestCase26VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionalityTc@2a54a73f</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase5RegisterUserWithExistingEmailTc.testCase5RegisterUserWithExistingEmailTc()'><b>testCase5RegisterUserWithExistingEmailTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase5RegisterUserWithExistingEmailTc</td>
+<td></td>
+<td>11</td>
+<td>com.javaproject.automationsqa.testcase.TestCase5RegisterUserWithExistingEmailTc@4d5b6aac</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase8VerifyAllProductsAndProductDetailTc.testCase8VerifyAllProductsAndProductDetailTc()'><b>testCase8VerifyAllProductsAndProductDetailTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase8VerifyAllProductsAndProductDetailTc</td>
+<td></td>
+<td>21</td>
+<td>com.javaproject.automationsqa.testcase.TestCase8VerifyAllProductsAndProductDetailTc@429bffaa</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase20SearchProductsAndVerifyCartAfterLoginTc.testCase20SearchProductsAndVerifyCartAfterLoginTc()'><b>testCase20SearchProductsAndVerifyCartAfterLoginTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase20SearchProductsAndVerifyCartAfterLoginTc</td>
+<td></td>
+<td>61</td>
+<td>com.javaproject.automationsqa.testcase.TestCase20SearchProductsAndVerifyCartAfterLoginTc@78123e82</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase11VerifySubscriptionInCartTc.testCase11VerifySubscriptionInCartTc()'><b>testCase11VerifySubscriptionInCartTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase11VerifySubscriptionInCartTc</td>
+<td></td>
+<td>9</td>
+<td>com.javaproject.automationsqa.testcase.TestCase11VerifySubscriptionInCartTc@7e5afaa6</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase16PlaceOrderLoginBeforeCheckoutTc.testCase16PlaceOrderLoginBeforeCheckoutTc()'><b>testCase16PlaceOrderLoginBeforeCheckoutTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase16PlaceOrderLoginBeforeCheckoutTc</td>
+<td></td>
+<td>73</td>
+<td>com.javaproject.automationsqa.testcase.TestCase16PlaceOrderLoginBeforeCheckoutTc@581ac8a8</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase25VerifyScrollUpUsingArrowButtonAndScrollDownFunctionalityTc.testCase25VerifyScrollUpUsingArrowButtonAndScrollDownFunctionalityTc()'><b>testCase25VerifyScrollUpUsingArrowButtonAndScrollDownFunctionalityTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase25VerifyScrollUpUsingArrowButtonAndScrollDownFunctionalityTc</td>
+<td></td>
+<td>7</td>
+<td>com.javaproject.automationsqa.testcase.TestCase25VerifyScrollUpUsingArrowButtonAndScrollDownFunctionalityTc@71238fc2</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase3LogInWithInCorrectEmailTc.testCase3LogInWithInCorrectEmailTc()'><b>testCase3LogInWithInCorrectEmailTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase3LogInWithInCorrectEmailTc</td>
+<td></td>
+<td>10</td>
+<td>com.javaproject.automationsqa.testcase.TestCase3LogInWithInCorrectEmailTc@49c7b90e</td></tr>
+<tr>
 <td title='com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc.testCase1RegisterUserTc()'><b>testCase1RegisterUserTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc</td>
 <td></td>
-<td>60</td>
-<td>com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc@1ba9117e</td></tr>
+<td>59</td>
+<td>com.javaproject.automationsqa.testcase.TestCase1RegisterUserTc@1e683a3e</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase10VerifySubscriptionInHomeTc.testCase10VerifySubscriptionInHomeTc()'><b>testCase10VerifySubscriptionInHomeTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase10VerifySubscriptionInHomeTc</td>
+<td></td>
+<td>8</td>
+<td>com.javaproject.automationsqa.testcase.TestCase10VerifySubscriptionInHomeTc@483f6d77</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase22AddToCartFromRecommendedItemsTc.testCase22AddToCartFromRecommendedItemsTc()'><b>testCase22AddToCartFromRecommendedItemsTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase22AddToCartFromRecommendedItemsTc</td>
+<td></td>
+<td>14</td>
+<td>com.javaproject.automationsqa.testcase.TestCase22AddToCartFromRecommendedItemsTc@fba92d3</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase2LogInWithCorrectEmailTc.testCase2LogInWithCorrectEmailTc()'><b>testCase2LogInWithCorrectEmailTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase2LogInWithCorrectEmailTc</td>
+<td></td>
+<td>15</td>
+<td>com.javaproject.automationsqa.testcase.TestCase2LogInWithCorrectEmailTc@73700b80</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase21AddReviewOnProductTc.testCase21AddReviewOnProductTc()'><b>testCase21AddReviewOnProductTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase21AddReviewOnProductTc</td>
+<td></td>
+<td>44</td>
+<td>com.javaproject.automationsqa.testcase.TestCase21AddReviewOnProductTc@67c33749</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase17RemoveProductsFromCartTc.testCase17RemoveProductsFromCartTc()'><b>testCase17RemoveProductsFromCartTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase17RemoveProductsFromCartTc</td>
+<td></td>
+<td>17</td>
+<td>com.javaproject.automationsqa.testcase.TestCase17RemoveProductsFromCartTc@6d4e5011</td></tr>
+<tr>
+<td title='com.javaproject.automationsqa.testcase.TestCase9SearchProductTc.testCase9SearchProductTc()'><b>testCase9SearchProductTc</b><br>Test class: com.javaproject.automationsqa.testcase.TestCase9SearchProductTc</td>
+<td></td>
+<td>17</td>
+<td>com.javaproject.automationsqa.testcase.TestCase9SearchProductTc@5403f35f</td></tr>
 </table><p>
 </body>
 </html>

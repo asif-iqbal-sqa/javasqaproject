@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class TestCase26VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionalityTc extends BaseClass{
 
     @Test
-    public void TestCase26VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionalityTc () {
+    public void testCase26VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionalityTc () {
 
         AutomationExerciseLandingPage aelp = new AutomationExerciseLandingPage(driver);
         TestCase26VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionalityPage tcvsuwabasdfp = new TestCase26VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionalityPage(driver);
