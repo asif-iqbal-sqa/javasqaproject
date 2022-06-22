@@ -15,7 +15,7 @@ public class TestCase4LogOutUserTc extends BaseClass{
         AutomationExerciseLandingPage aelp = new AutomationExerciseLandingPage(driver);
         TestCase4LogOutUserPage tcloup = new TestCase4LogOutUserPage(driver);
 
-        aelp.signUpLogIn.click();
+        aelp.signUpLogInButton.click();
         sleepTest(1500);
 
         String loginToYourAccountTxt = aelp.loginToYourAccountText.getText();
@@ -27,10 +27,10 @@ public class TestCase4LogOutUserTc extends BaseClass{
         Assert.assertEquals(loginUrl,Data.LOGIN_SIGNUP_URL);
         System.out.println("You are at login/signup page");
 
-        aelp.emailAddress.sendKeys(Data.SIGNUP_EMAIL);
+        aelp.loginEmailAddress.sendKeys(Data.SIGNUP_EMAIL);
         sleepTest(1500);
 
-        aelp.password.sendKeys(Data.SIGNUP_PAGE_PASSWORD);
+        aelp.loginPassword.sendKeys(Data.SIGNUP_PAGE_PASSWORD);
         sleepTest(1500);
 
         aelp.loginButton.click();

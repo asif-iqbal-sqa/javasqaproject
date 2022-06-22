@@ -23,7 +23,7 @@ public class TestCase1RegisterUserTc extends BaseClass {
         System.out.println("Link Matched");
 
         //Click on Signup/Login Button
-        aelp.signUpLogIn.click();
+        aelp.signUpLogInButton.click();
         sleepTest(2000);
 
         //Validate Signup/Login page URL

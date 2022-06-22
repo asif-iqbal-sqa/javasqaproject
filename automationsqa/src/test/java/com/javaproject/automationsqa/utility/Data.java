@@ -3,6 +3,7 @@ package com.javaproject.automationsqa.utility;
 public class Data {
 
     public static final String BASE_URL = "https://www.automationexercise.com/";
+    public static final String HOME_PAGE_SUCCESS_MESSAGE = "Ypu are at Home page";
     public static final String LOGIN_SIGNUP_URL = "https://www.automationexercise.com/login";
     public static final String SIGNUP_NAME = "XYZ";
     public static final String SIGNUP_EMAIL = "xyz123456789012@yopmail.com";
@@ -53,7 +54,7 @@ public class Data {
 
     public static final String TEST_CASES_URL = "https://www.automationexercise.com/test_cases";
 
-    public static final String PRODUCTS_URL = "https://www.automationexercise.com/products";
+    public static final String PRODUCTS_PAGE_URL = "https://www.automationexercise.com/products";
     public static final String PRODUCTS_TEXT = "Products";
 
 
@@ -68,6 +69,79 @@ public class Data {
     public static final String SEARCH_TEXT = "Blue Top";
     public static final String SEARCH_PRODUCTS_TEXT = "SEARCHED PRODUCTS";
 
+
+    public static final String SUBSCRIPTION_US_EMAIL = "xyz@yopmail.com";
+    public static final String SUCCESS_ALERT_TEXT = "'You have been successfully subscribed!'";
+
+
+    public static final String CART_TEXT = "Shopping Cart";
+    public static final String CART_URL = "https://www.automationexercise.com/view_cart";
+
+    public static final String VIEW_PRODUCT_DETAIL_URL = "https://www.automationexercise.com/product_details/1";
+    public static final String PRODUCT_QUANTITY_NUMBER = "4";
+
+
+    public static final String SIGNUP_NAME_INPUT = "ABC";
+    public static final String SIGNUP_EMAIL_ADDRESS_INPUT = "abc7@yopmail.com";
+    public static final String SIGNUP_EMAIL_ADDRESS_INPUT_TC_23 = "abc8@yopmail.com";
+    public static final String SIGNUP_EMAIL_ADDRESS_INPUT_TC_24 = "abc14@yopmail.com";
+    public static final String SIGNUP_PAGE_PASSWORD_INPUT = "zxcV%6789";
+    public static final String SIGNUP_PAGE_DATE_DROPDOWN = "13";
+    public static final String SIGNUP_PAGE_MONTH_DROPDOWN = "12";
+    public static final String SIGNUP_PAGE_YEAR_DROPDOWN = "2000";
+    public static final String SIGNUP_FIRST_NAME_INPUT = "DEF";
+    public static final String SIGNUP_SECOND_NAME_INPUT = "GHI";
+    public static final String SIGNUP_COMPANY_NAME_INPUT = "ABC Company";
+    public static final String SIGNUP_ADDRESS_INPUT = "M-1";
+    public static final String SIGNUP_ADDRESS2_INPUT = "DHK";
+    public static final String SIGNUP_COUNTRY_NAME_DROPDOWN = "New Zealand";
+    public static final String SIGNUP_STATE_INPUT = "M";
+    public static final String SIGNUP_CITY_INPUT = "M";
+    public static final String SIGNUP_ZIPCODE_INPUT = "121";
+    public static final String SIGNUP_MOBILE_NUMBER_INPUT = "+8801670130130";
+    public static final String SIGNUP_ACCOUNT_CREATED_TXT = "ACCOUNT CREATED!";
+    public static final String DELIVERY_ADDRESS_FULL_NAME = "Mr. DEF GHI";
+    public static final String BILLING_ADDRESS_FULL_NAME = "Mr. DEF GHI";
+    public static final String ORDER_PLACED_PARTIAL_TXT = "Your order has been confirmed!";
+    public static final String CHECK_OUT_PAGE_COMMENT = "If you would like to add a comment about your order, please write it in the field below.";
+    public static final String NAME_ON_CARD_INPUT = "ABC_DEF_GHI";
+    public static final String CARD_NUMBER_INPUT = "4637673603806677";
+    public static final String CVC_INPUT = "753";
+    public static final String EXPIRATION_MONTH_INPUT = "05";
+    public static final String EXPIRATION_YEAR_INPUT = "2027";
+    public static final String ORDER_PLACE_SUCCESS_TEXT = "Congratulations! Your order has been confirmed!";
+
+    public static final String LOGIN_EMAIL_ADDRESS_INPUT = "abc3@yopmail.com";
+    public static final String LOGIN_PASSWORD_INPUT = "zxcV%6789";
+
+    public static final String SHOPPING_CART_PAGE_TEXT = "Shopping Cart";
+    public static final String SHOPPING_CART_PAGE_URL = "https://www.automationexercise.com/view_cart";
+    public static final String PRODUCT_REMOVED_TEXT = "Cart is empty! Click here to buy products.";
+
+    public static final String CATEGORY_TEXT = "CATEGORY";
+    public static final String WOMEN_TOPS_PRODUCTS_TEXT = "WOMEN - TOPS PRODUCTS";
+    public static final String MEN_JEANS_PRODUCTS_TEXT = "MEN - JEANS PRODUCTS";
+
+    public static final String POLO_BRAND_PAGE_URL = "https://www.automationexercise.com/brand_products/Polo";
+    public static final String POLO_BRAND_PRODUCTS_TEXT = "BRAND - POLO PRODUCTS";
+    public static final String MADAME_BRAND_PAGE_URL = "https://www.automationexercise.com/brand_products/Madame";
+    public static final String MADAME_BRAND_PRODUCTS_TEXT = "BRAND - MADAME PRODUCTS";
+
+
+    public static final String PAGE_URL = "https://www.automationexercise.com/products";
+    public static final String SEARCH_TEXT_ONE = "Sleeveless Dress";
+
+    public static final String ALL_PRODUCTS_TEXT = "ALL PRODUCTS";
+    public static final String WRITE_YOUR_REVIEW_TEXT = "WRITE YOUR REVIEW";
+    public static final String WRITE_YOUR_REVIEW_TEXT_NAME_INPUT = "DRESS REVIEW";
+    public static final String WRITE_YOUR_REVIEW_TEXT_WRONG_EMAIL_ADDRESS_INPUT = "abc3";
+    public static final String WRITE_YOUR_REVIEW_TEXT_EMAIL_ADDRESS_INPUT = "abc3@yopmail.com";
+    public static final String WRITE_YOUR_REVIEW_TEXT_INPUT = "WRITE YOUR REVIEW HERE";
+
+    public static final String RECOMMENDED_ITEMS_TEXT = "RECOMMENDED ITEMS";
+    public static final String STYLISH_DRESS_TEXT = "Stylish Dress";
+
+    public static final String SLIDER_TEXT = "Full-Fledged practice website for Automation Engineers";
 
 
 

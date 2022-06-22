@@ -49,7 +49,7 @@ public class TestCase6ContactUsFormTc extends BaseClass{
         String successTxt = tccufp.successText.getText();
         Assert.assertEquals(successTxt, Data.CONTACT_US_SUCCESS_MESSAGE);
         sleepTest(1500);
-        System.out.println(successTxt + " is showing");
+        System.out.println(successTxt + " is showing.");
 
         tccufp.homeButton.click();
         sleepTest(1500);
@@ -57,7 +57,7 @@ public class TestCase6ContactUsFormTc extends BaseClass{
         String featuresItemsTxt = tccufp.featuresItems.getText();
         Assert.assertEquals(featuresItemsTxt, Data.FEATURES_ITEMS_TEXT);
         sleepTest(1500);
-        System.out.println("You are at HOME page");
+        System.out.println("You are at HOME page.");
 
     }
 
