@@ -14,7 +14,7 @@ public class TestCase3LogInWithInCorrectEmailTc extends BaseClass{
         AutomationExerciseLandingPage aelp = new AutomationExerciseLandingPage(driver);
         TestCase3LogInWithInCorrectEmailPage tcliwice = new TestCase3LogInWithInCorrectEmailPage(driver);
 
-        aelp.signUpLogIn.click();
+        aelp.signUpLogInButton.click();
         sleepTest(1000);
 
         String signUpUrl = driver.getCurrentUrl();
@@ -22,11 +22,11 @@ public class TestCase3LogInWithInCorrectEmailTc extends BaseClass{
         System.out.println("URL Matched");
         sleepTest(1500);
 
-        aelp.emailAddress.sendKeys(Data.INCORRECT_EMAIL);
+        aelp.loginEmailAddress.sendKeys(Data.INCORRECT_EMAIL);
         sleepTest(1500);
         System.out.println("Incorrect Email Wrote");
 
-        aelp.password.sendKeys(Data.INCORRECT_PASSWORD);
+        aelp.loginPassword.sendKeys(Data.INCORRECT_PASSWORD);
         sleepTest(1500);
         System.out.println("Incorrect Password Wrote");
 

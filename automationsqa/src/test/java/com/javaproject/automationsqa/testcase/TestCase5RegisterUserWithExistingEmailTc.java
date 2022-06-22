@@ -15,7 +15,7 @@ public class TestCase5RegisterUserWithExistingEmailTc extends BaseClass {
         AutomationExerciseLandingPage aelp = new AutomationExerciseLandingPage(driver);
         TestCase5RegisterUserWithExistingEmailPage tcruweep = new TestCase5RegisterUserWithExistingEmailPage(driver);
 
-        aelp.signUpLogIn.click();
+        aelp.signUpLogInButton.click();
 
         String signupPageUrl = driver.getCurrentUrl();
         Assert.assertEquals(signupPageUrl, Data.LOGIN_SIGNUP_URL);

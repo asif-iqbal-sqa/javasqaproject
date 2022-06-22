@@ -14,7 +14,7 @@ public class TestCase2LogInWithCorrectEmailTc extends BaseClass{
         AutomationExerciseLandingPage aelp = new AutomationExerciseLandingPage(driver);
         TestCase2LogInWithCorrectEmailPage tcliwcep = new TestCase2LogInWithCorrectEmailPage(driver);
 
-        aelp.signUpLogIn.click();
+        aelp.signUpLogInButton.click();
         sleepTest(1000);
 
         String TestCase2LogInWithCorrectEmailPageUrl = driver.getCurrentUrl();
@@ -27,19 +27,29 @@ public class TestCase2LogInWithCorrectEmailTc extends BaseClass{
         sleepTest(1500);
         System.out.println("Login to your account is showing");
 
-        aelp.emailAddress.sendKeys(Data.SIGNUP_EMAIL);
+        aelp.loginEmailAddress.sendKeys(Data.SIGNUP_EMAIL);
         sleepTest(2000);
 
-        aelp.password.sendKeys(Data.SIGNUP_PAGE_PASSWORD);
+        aelp.loginPassword.sendKeys(Data.SIGNUP_PAGE_PASSWORD);
         sleepTest(1500);
 
         aelp.loginButton.click();
         sleepTest(1500);
 
+//        String loggedInAsTxt = tcliwcep.loggedInAs.getText();
+//        Assert.assertTrue(true, Data.LOGGED_IN_PARTIAL_TEXT);
+//        sleepTest(1500);
+//        System.out.println("You are logged in");
+
         String loggedInAsTxt = tcliwcep.loggedInAs.getText();
-        Assert.assertTrue(true, Data.LOGGED_IN_PARTIAL_TEXT);
-        sleepTest(1500);
-        System.out.println("You are logged in");
+        if (loggedInAsTxt.contains(Data.LOGGED_IN_PARTIAL_TEXT)){
+            System.out.println("Yo Man Experiment Works");
+            sleepTest(10000);
+        }
+
+        else {
+            System.out.println(Data.ERROR_MESSAGE);
+        }
 
     }
 }

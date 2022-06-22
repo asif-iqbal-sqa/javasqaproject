@@ -19,7 +19,7 @@ public class TestCase9SearchProductTc extends BaseClass{
         sleepTest(1500);
 
         String productsPageUrl = driver.getCurrentUrl();
-        Assert.assertEquals(productsPageUrl, Data.PRODUCTS_URL);
+        Assert.assertEquals(productsPageUrl, Data.PRODUCTS_PAGE_URL);
         sleepTest(1500);
         System.out.println("Product Page URL Matched");
 
